@@ -19,8 +19,8 @@
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "sass": "^1.54.5",
-    "web-vitals": "^2.1.4",
-    "server": "json-server --watch server/db.json --port 3300"
+    "server": "file:json-server --watch server/db.json --port 3300",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
